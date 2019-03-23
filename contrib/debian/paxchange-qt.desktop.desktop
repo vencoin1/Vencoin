@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=VENcoin
+Comment=VENcoin P2P Cryptocurrency
+Exec=venture-qt %u
+Terminal=false
+Type=Application
+Icon=venture128
+MimeType=x-scheme-handler/venture;
+Categories=Office;Finance;
+Name[en_US]=venture-qt.desktop

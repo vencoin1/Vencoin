@@ -1,0 +1,26 @@
+[Unit]
+Description=VENTURE's distributed currency daemon
+After=network.target
+
+[Service]
+User=venture
+Group=venture
+
+Type=forking
+PIDFile=/var/lib/ventured/ventured.pid
+
+ExecStart=/usr/bin/ventured -daemon -pid=/var/lib/ventured/ventured.pid \
+          -conf=/etc/venture/venture.conf -datadir=/var/lib/ventured
+
+ExecStop=-/usr/bin/venture-cli -conf=/etc/venture/venture.conf \
+         -datadir=/var/lib/ventured stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

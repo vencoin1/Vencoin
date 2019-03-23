@@ -1,0 +1,29 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/venture_bg.qm</file>
+        <file alias="ca">locale/venture_ca.qm</file>
+        <file alias="cs">locale/venture_cs.qm</file>
+        <file alias="da">locale/venture_da.qm</file>
+        <file alias="de">locale/venture_de.qm</file>
+        <file alias="en">locale/venture_en.qm</file>
+        <file alias="en_US">locale/venture_en_US.qm</file>
+        <file alias="es">locale/venture_es.qm</file>
+        <file alias="fi">locale/venture_fi.qm</file>
+        <file alias="fr_FR">locale/venture_fr_FR.qm</file>
+        <file alias="it">locale/venture_it.qm</file>
+        <file alias="ja">locale/venture_ja.qm</file>
+        <file alias="ko_KR">locale/venture_ko_KR.qm</file>
+        <file alias="nl">locale/venture_nl.qm</file>
+        <file alias="pl">locale/venture_pl.qm</file>
+        <file alias="pt">locale/venture_pt.qm</file>
+        <file alias="pt_BR">locale/venture_pt_BR.qm</file>
+        <file alias="ro_RO">locale/venture_ro_RO.qm</file>
+        <file alias="ru">locale/venture_ru.qm</file>
+        <file alias="sk">locale/venture_sk.qm</file>
+        <file alias="sv">locale/venture_sv.qm</file>
+        <file alias="tr">locale/venture_tr.qm</file>
+        <file alias="uk">locale/venture_uk.qm</file>
+        <file alias="zh_CN">locale/venture_zh_CN.qm</file>
+        <file alias="zh_TW">locale/venture_zh_TW.qm</file>
+    </qresource>
+</RCC>

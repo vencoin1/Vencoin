@@ -1,0 +1,26 @@
+# /etc/conf.d/ventured: config file for /etc/init.d/ventured
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/venture/venture.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/ventured"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/ventured.pid"
+
+# Where to write ventured data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/ventured"
+
+# User and group to own ventured process
+#BITCOIND_USER="venture"
+#BITCOIND_GROUP="venture"
+
+# Path to ventured executable
+#BITCOIND_BIN="/usr/bin/ventured"
+
+# Nice value to run ventured under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
